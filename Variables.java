@@ -1,0 +1,65 @@
+public class Variables{
+public static void main(String[]args)
+{
+int line = 80;
+line = 88;
+int columns = 66;
+columns = 99;
+int boxes = 77;
+boxes = 60;
+int managment = 3;
+managment = 7;
+int mobile = 66975686;
+mobile = 5466879;
+int registerno = 55;
+registerno = 65;
+int qualities = 51;
+qualities = 556;
+int candies = 59;
+candies = 33;
+int examinations = 10;
+examinations = 5;
+int rules = 1;
+rules = 0;
+int vaccations = 8;
+vaccations = 3;
+int alphabets = 57;
+alphabets = 26;
+int usn = 35;
+usn = 39;
+int block = 45;
+block =21;
+int resigns = 6;
+resigns = 0;
+int question = 1;
+question = 5;
+int cars = 66;
+cars = 65;
+int triangles = 9;
+triangles = 99;
+int colleges = 4;
+colleges = 6;
+int cities = 56;
+cities = 55;
+System.out.println(line);
+System.out.println(columns);
+System.out.println(boxes);
+System.out.println(managment);
+System.out.println(mobile);
+System.out.println(registerno);
+System.out.println(qualities);
+System.out.println(candies);
+System.out.println(examinations);
+System.out.println(rules);
+System.out.println(vaccations);
+System.out.println(alphabets);
+System.out.println(usn);
+System.out.println(block);
+System.out.println(resigns);
+System.out.println(question);
+System.out.println(cars);
+System.out.println(triangles);
+System.out.println(colleges);
+System.out.println(cities);
+}
+}
