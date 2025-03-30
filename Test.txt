@@ -1,0 +1,135 @@
+1.Variables are the containers to store values.
+
+example;
+data type variable name= value;
+int        name        =  Anushree;
+
+
+
+2. two types of data types in java;
+  1.Primitive data type
+  2.Non primitive data type
+
+Primitive data type:this are the built in types:
+1.byte:-128 to127 example; age= 100 years.
+2.short :it have 2 byte value.example; number Of Districts in India = 800;
+3.int  : it have 4 byte value .example; int  number of peoples in a city = 70000;
+4.long : it have 8 byte value. we need to write l in last. example; number pages in a book = 56779 l.
+5.float: itcontains  a decimal value. example;height og a person =5.8f
+6.double:it also have decimal values.example bank balance = 5798.567788d
+7.boolean: iit have true  or false values.example; is it good .
+8.char : it have single value .example; number of students present'p'.
+
+3.primitive data types are built in types where non primitive data types are user defined and also build in type.
+ examples for primitive data type:char,bolean,int float.
+ examples for  non primitive data type: arrays.
+4. out put of code
+int x = 10;
+double y = x;
+System.out.println(y);
+answer:x .
+5.false or true for boolean
+  uninitialized integer value null.
+
+
+METHODS;
+1.methods are block of codes,which is going to execute whenever it is called.
+  purpose is implements the values whenever it calls.
+ex;public static void main string[] args{
+hai();
+hai();
+}
+ public static void hai(){
+   System.out.println("hello")
+}
+ like this we can call method then output will be executed hello hello.
+3. public static void main string[] args(){
+add();
+
+public static void add(){
+int value1=1;
+int value2 = 2;
+System.out.println(value1+value2);
+
+4.void method:no need to write return, it mush and should have void.it doesnot retrn anything.
+non void method:need to write return .it may include any data type.	
+example:public static void(){
+non void:public static int add(){}
+5.public class Test {
+    public static void main(String[] args) {
+        System.out.println(getValue());
+    }
+
+    static int getValue() {
+        return 20;
+    }
+}
+answer:20
+6.method overloading is having same method name but there is difference in the parameters.
+7.Then the method was not going to execute if we didnnot write the return value.then the code not executes.
+
+
+ PARAMETERS
+1.parameters are the vaariables that are declared in the method braket.
+parameters  are used in method why because it takes the data.
+
+2.pass by value :
+pass by reference :
+
+
+3. inside modify method:a=15,arr[0]=25.
+after modify method :num=10 arr[0]=25.
+
+4.in java methods cannot return multipe values.
+if we want to write the method should retun an array.then we can write multiple values.																																																						
+
+5.passing an array to methods means the method recives the original array values.
+yes it affects the original array,original array get modify.
+
+ARRAY:
+1.array is a collection of values with similar datatype.
+variable can hold only one value.But array can hold multiple values having same data type.
+
+2.declaration of an array:
+int[] marks;
+datatype[] arrayname;
+
+initialization of an array:
+marks= new int[2];
+int[] marks={60,70,};
+
+
+3.public class Maximumelements{
+ public static void main (string[]args){
+int[] array={1,2,3,4,5};
+int max= array[0];
+for (int i=1; i<array.length; i++){
+if (array[1]>max){
+max=array[i];
+}}
+System.out.println("Maximum element is:" + max);
+}
+}
+
+
+4.3
+
+6.we can find the sum of elements in a array using loop by writing th
+
+
+
+
+output :
+1.8
+2.1,3,5
+3.8,8
+4.4
+
+
+
+
+
+
+
+
+
